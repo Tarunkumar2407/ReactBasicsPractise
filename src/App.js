@@ -1,13 +1,14 @@
 // import { useState } from 'react';
 import './App.css';
-import UseMemo from './Components/useMemo/UseMemo';
+import UseCallback from './Components/useCallback/UseCallback';
+// import UseMemo from './Components/useMemo/UseMemo';
 // import ChildA from './Components/PropDrilling.js/ChildA';
 // import ChildB from './Components/PropDrilling.js/ChildB';
 // import ChildC from './Components/ContextAPI/ChildC';
 // import Parent from './Components/ContextAPI/Parent';
 // import Parent from './Components/ContextAPI/PropDrilling.js/Parent';
 // import Parent from './Components/useContext/Parent';
-import UseRefHook from './Components/useRef/UseRef';
+// import UseRefHook from './Components/useRef/UseRef';
 // import FetchData from './Components/useEfffect/FetchData1';
 // import Count from './Components/useEfffect/Count';
 // import Counter from './Components/useEfffect/Counter';
@@ -48,7 +49,8 @@ function App() {
       {/* <ChildA /> */}
       {/* <Parent /> */}
       {/* <UseRefHook /> */}
-      <UseMemo />
+      {/* <UseMemo /> */}
+      <UseCallback />
     </div>
   );
 }
