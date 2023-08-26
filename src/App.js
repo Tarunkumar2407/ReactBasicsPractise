@@ -1,8 +1,11 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 import './App.css';
+// import WithArray from './Components/useStateHook/WithArray';
 // import GetInputBoxValue from './Components/FormHandling/GetInputBoxValue';
 // import ShowHide from './Components/FormHandling/ShowHide';
-import Parent from './Components/LifitngStateUp/Parent';
+// import Parent from './Components/LifitngStateUp/Parent';
+import WithObject2 from './Components/useStateHook/WithObject2';
+// import WithObject from './Components/useStateHook/WithArray';
 // import PropsInClass from './Components/props/PropsInClass';
 // import Greet from './Components/functionalComponents/Greet';
 // import GreetClass from './Components/classComponents/classGreet';
@@ -21,7 +24,9 @@ function App() {
       {/* <PropsInClass name = {"Tarun"}/> */}
       {/* <GetInputBoxValue /> */}
       {/* <ShowHide /> */}
-      <Parent />
+      {/* <Parent /> */}
+      <WithObject2 />
+      {/* <WithArray /> */}
 
     </div>
   );
