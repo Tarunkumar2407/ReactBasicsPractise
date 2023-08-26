@@ -1,10 +1,13 @@
 // import { useState } from 'react';
 import './App.css';
+// import Count from './Components/useEfffect/Count';
+// import Counter from './Components/useEfffect/Counter';
+import DigitalClock from './Components/useEfffect/DigitalClock';
 // import WithArray from './Components/useStateHook/WithArray';
 // import GetInputBoxValue from './Components/FormHandling/GetInputBoxValue';
 // import ShowHide from './Components/FormHandling/ShowHide';
 // import Parent from './Components/LifitngStateUp/Parent';
-import WithObject2 from './Components/useStateHook/WithObject2';
+// import WithObject2 from './Components/useStateHook/WithObject2';
 // import WithObject from './Components/useStateHook/WithArray';
 // import PropsInClass from './Components/props/PropsInClass';
 // import Greet from './Components/functionalComponents/Greet';
@@ -25,9 +28,11 @@ function App() {
       {/* <GetInputBoxValue /> */}
       {/* <ShowHide /> */}
       {/* <Parent /> */}
-      <WithObject2 />
+      {/* <WithObject2 /> */}
       {/* <WithArray /> */}
-
+      {/* <Count /> */}
+      {/* <Counter /> */}
+      <DigitalClock />
     </div>
   );
 }
