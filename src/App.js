@@ -1,8 +1,9 @@
 // import { useState } from 'react';
 import './App.css';
+import FetchData from './Components/useEfffect/FetchData1';
 // import Count from './Components/useEfffect/Count';
 // import Counter from './Components/useEfffect/Counter';
-import DigitalClock from './Components/useEfffect/DigitalClock';
+// import DigitalClock from './Components/useEfffect/DigitalClock';
 // import WithArray from './Components/useStateHook/WithArray';
 // import GetInputBoxValue from './Components/FormHandling/GetInputBoxValue';
 // import ShowHide from './Components/FormHandling/ShowHide';
@@ -32,7 +33,8 @@ function App() {
       {/* <WithArray /> */}
       {/* <Count /> */}
       {/* <Counter /> */}
-      <DigitalClock />
+      {/* <DigitalClock /> */}
+      <FetchData />
     </div>
   );
 }
