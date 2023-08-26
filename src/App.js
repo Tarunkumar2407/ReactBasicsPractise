@@ -1,5 +1,6 @@
 // import { useState } from 'react';
 import './App.css';
+import UseMemo from './Components/useMemo/UseMemo';
 // import ChildA from './Components/PropDrilling.js/ChildA';
 // import ChildB from './Components/PropDrilling.js/ChildB';
 // import ChildC from './Components/ContextAPI/ChildC';
@@ -46,7 +47,8 @@ function App() {
       {/* <ChildB /> */}
       {/* <ChildA /> */}
       {/* <Parent /> */}
-      <UseRefHook />
+      {/* <UseRefHook /> */}
+      <UseMemo />
     </div>
   );
 }
