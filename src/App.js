@@ -5,7 +5,8 @@ import './App.css';
 // import ChildC from './Components/ContextAPI/ChildC';
 // import Parent from './Components/ContextAPI/Parent';
 // import Parent from './Components/ContextAPI/PropDrilling.js/Parent';
-import Parent from './Components/useContext/Parent';
+// import Parent from './Components/useContext/Parent';
+import UseRefHook from './Components/useRef/UseRef';
 // import FetchData from './Components/useEfffect/FetchData1';
 // import Count from './Components/useEfffect/Count';
 // import Counter from './Components/useEfffect/Counter';
@@ -44,7 +45,8 @@ function App() {
       {/* <ChildC /> */}
       {/* <ChildB /> */}
       {/* <ChildA /> */}
-      <Parent />
+      {/* <Parent /> */}
+      <UseRefHook />
     </div>
   );
 }
