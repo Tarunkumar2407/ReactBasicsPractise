@@ -1,6 +1,11 @@
 // import { useState } from 'react';
 import './App.css';
-import FetchData from './Components/useEfffect/FetchData1';
+// import ChildA from './Components/PropDrilling.js/ChildA';
+// import ChildB from './Components/PropDrilling.js/ChildB';
+// import ChildC from './Components/ContextAPI/ChildC';
+// import Parent from './Components/ContextAPI/Parent';
+import Parent from './Components/ContextAPI/PropDrilling.js/Parent';
+// import FetchData from './Components/useEfffect/FetchData1';
 // import Count from './Components/useEfffect/Count';
 // import Counter from './Components/useEfffect/Counter';
 // import DigitalClock from './Components/useEfffect/DigitalClock';
@@ -34,7 +39,11 @@ function App() {
       {/* <Count /> */}
       {/* <Counter /> */}
       {/* <DigitalClock /> */}
-      <FetchData />
+      {/* <FetchData /> */}
+      {/* <ChildC /> */}
+      {/* <ChildB /> */}
+      {/* <ChildA /> */}
+      <Parent />
     </div>
   );
 }
