@@ -1,5 +1,5 @@
 // import { useState } from 'react';
-import './App.css';
+import "./App.css";
 // import UseCallback from './Components/useCallback/UseCallback';
 // import UseMemo from './Components/useMemo/UseMemo';
 // import ChildA from './Components/PropDrilling.js/ChildA';
@@ -28,38 +28,45 @@ import './App.css';
 // import Counter from './Components/customHook/Counter2';
 // import Counter1 from './Components/customHook/Counter1';
 // import CounterReducer from './Components/useReducer/CounterReducer';
-import Counter2Reducer from './Components/useReducer/Counter2Reducer';
+// import Counter2Reducer from "./Components/useReducer/Counter2Reducer";
+import { Provider } from "react-redux";
+import store from "./Components/redux/Store1"
+import CakeContainer from "./Components/redux/Cake/CakeContainer";
+import IceCreamContainer from "./Components/redux/IceCream/IceCreamContainer";
 function App() {
-  
   return (
-    <div className="App">
-      {/* <Greet /> */}
-      {/* <GreetClass /> */}
-      {/* <StateFunctional /> */}
-      {/* <StateInClass /> */}
-      {/* <Student name = "Tarun" email="tarun@gmail.com" others={{address:"Noida", jobrole: "Full Stack Developer"}} /> */}
-      {/* <PropsInClass name = {"Tarun"}/> */}
-      {/* <GetInputBoxValue /> */}
-      {/* <ShowHide /> */}
-      {/* <Parent /> */}
-      {/* <WithObject2 /> */}
-      {/* <WithArray /> */}
-      {/* <Count /> */}
-      {/* <Counter /> */}
-      {/* <DigitalClock /> */}
-      {/* <FetchData /> */}
-      {/* <ChildC /> */}
-      {/* <ChildB /> */}
-      {/* <ChildA /> */}
-      {/* <Parent /> */}
-      {/* <UseRefHook /> */}
-      {/* <UseMemo /> */}
-      {/* <UseCallback /> */}
-      {/* <Counter /> */}
-      {/* <Counter1 /> */}
-      {/* <CounterReducer /> */}
-      <Counter2Reducer />
-    </div>
+    <Provider store={store}>
+      <div className="App">
+        {/* <Greet /> */}
+        {/* <GreetClass /> */}
+        {/* <StateFunctional /> */}
+        {/* <StateInClass /> */}
+        {/* <Student name = "Tarun" email="tarun@gmail.com" others={{address:"Noida", jobrole: "Full Stack Developer"}} /> */}
+        {/* <PropsInClass name = {"Tarun"}/> */}
+        {/* <GetInputBoxValue /> */}
+        {/* <ShowHide /> */}
+        {/* <Parent /> */}
+        {/* <WithObject2 /> */}
+        {/* <WithArray /> */}
+        {/* <Count /> */}
+        {/* <Counter /> */}
+        {/* <DigitalClock /> */}
+        {/* <FetchData /> */}
+        {/* <ChildC /> */}
+        {/* <ChildB /> */}
+        {/* <ChildA /> */}
+        {/* <Parent /> */}
+        {/* <UseRefHook /> */}
+        {/* <UseMemo /> */}
+        {/* <UseCallback /> */}
+        {/* <Counter /> */}
+        {/* <Counter1 /> */}
+        {/* <CounterReducer /> */}
+        {/* <Counter2Reducer /> */}
+        <CakeContainer />
+        <IceCreamContainer />
+      </div>
+    </Provider>
   );
 }
 
