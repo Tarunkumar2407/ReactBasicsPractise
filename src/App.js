@@ -25,6 +25,8 @@ import UseCallback from './Components/useCallback/UseCallback';
 // import StateFunctional from './Components/functionalComponents/StateByFunctional';
 // import StateInClass from './Components/classComponents/StateInClass';
 // import Student from './Components/props/Student';
+import Counter from './Components/customHook/Counter2';
+import Counter1 from './Components/customHook/Counter1';
 function App() {
   
   return (
@@ -50,7 +52,9 @@ function App() {
       {/* <Parent /> */}
       {/* <UseRefHook /> */}
       {/* <UseMemo /> */}
-      <UseCallback />
+      {/* <UseCallback /> */}
+      <Counter />
+      <Counter1 />
     </div>
   );
 }
