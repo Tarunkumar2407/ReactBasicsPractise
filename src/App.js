@@ -1,6 +1,6 @@
 // import { useState } from 'react';
 import './App.css';
-import UseCallback from './Components/useCallback/UseCallback';
+// import UseCallback from './Components/useCallback/UseCallback';
 // import UseMemo from './Components/useMemo/UseMemo';
 // import ChildA from './Components/PropDrilling.js/ChildA';
 // import ChildB from './Components/PropDrilling.js/ChildB';
@@ -25,8 +25,10 @@ import UseCallback from './Components/useCallback/UseCallback';
 // import StateFunctional from './Components/functionalComponents/StateByFunctional';
 // import StateInClass from './Components/classComponents/StateInClass';
 // import Student from './Components/props/Student';
-import Counter from './Components/customHook/Counter2';
-import Counter1 from './Components/customHook/Counter1';
+// import Counter from './Components/customHook/Counter2';
+// import Counter1 from './Components/customHook/Counter1';
+// import CounterReducer from './Components/useReducer/CounterReducer';
+import Counter2Reducer from './Components/useReducer/Counter2Reducer';
 function App() {
   
   return (
@@ -53,8 +55,10 @@ function App() {
       {/* <UseRefHook /> */}
       {/* <UseMemo /> */}
       {/* <UseCallback /> */}
-      <Counter />
-      <Counter1 />
+      {/* <Counter /> */}
+      {/* <Counter1 /> */}
+      {/* <CounterReducer /> */}
+      <Counter2Reducer />
     </div>
   );
 }
